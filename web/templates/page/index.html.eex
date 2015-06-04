@@ -1,40 +1,47 @@
-<div class="jumbotron">
-  <h2>Welcome to Phoenix!</h2>
-  <p class="lead">Most frameworks make you choose between speed and a productive environment. <a href="http://phoenixframework.org">Phoenix</a> and <a href="http://elixir-lang.org">Elixir</a> give you both.</p>
-</div>
 
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="http://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
+
+
+<div class="ui cards">
+  <div class="card">
+    <a class="image">
+      <img src="http://placehold.it/290x290">
+    </a>
+    <div class="content">
+      <a class="header">Elliot Fu</a>
+      <div class="meta">
+        <a>Friends</a>
+      </div>
+      <div class="description">
+        Elliot Fu is a film-maker from New York.
+      </div>
+    </div>
   </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/issues?state=open">Issues</a>
-      </li>
-      <li>
-        <a href="irc://irc.freenode.net/elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
+  <div class="card">
+    <a class="image">
+      <img src="http://placehold.it/290x290">
+    </a>
+    <div class="content">
+      <a class="header">Helen Troy</a>
+      <div class="meta">
+        <a>Friends</a>
+      </div>
+      <div class="description">
+        Helen Troy is an archivist living in New York, who enjoys cooking, fine art, and gardening.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <a class="image">
+      <img src="http://placehold.it/290x290">
+    </a>
+    <div class="content">
+      <a class="header">Jenny Hess</a>
+      <div class="meta">
+        <a>Friends</a>
+      </div>
+      <div class="description">
+        Jenny is a student studying Media Management at the New School.
+      </div>
+    </div>
   </div>
 </div>
-

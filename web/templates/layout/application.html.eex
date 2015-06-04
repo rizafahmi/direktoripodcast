@@ -8,17 +8,41 @@
     <meta name="author" content="">
 
     <title>Hello Phoenix!</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/semantic.min.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/main.css") %>">
+    <script src="<%= static_path(@conn, "/js/jquery.min.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/semantic.min.js") %>"></script>
   </head>
 
   <body>
-    <div class="container" role="main">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-        </ul>
-        <span class="logo"></span>
+    <header id="main-menu">
+      <!-- TOP MENU -->
+
+      <div id="top-menu" class="ui inverted menu">
+        <div class="item">
+          <a href="#">
+            <img src="http://placehold.it/20x20" alt="logo" style="vertical-align: middle">
+            <span style="padding-left: 10px;">Direktori Podcast Indonesia</span>
+          </a>
+        </div>
+        <div class="right menu">
+          <a class="item">
+            <i class="content icon"></i>
+          </a>
+        </div>
       </div>
+
+
+
+      <!-- END TOP MENU -->
+
+    </header>
+
+
+
+
+
+    <div class="container" role="main">
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
