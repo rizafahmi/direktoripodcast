@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding-top: 60px;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.footer-container {
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
