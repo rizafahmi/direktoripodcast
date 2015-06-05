@@ -44,7 +44,7 @@
 
 
 
-    <div class="container" role="main">
+    <div class="main-container" role="main">
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
@@ -52,6 +52,22 @@
       <%= @inner %>
 
     </div> <!-- /container -->
+
+    <footer class="ui inverted black footer vertical segment">
+      <div class="footer-container">
+        <div class="ui stackable inverted divided relaxed grid">
+          <div class="ten wide column">
+          Amet natus odio praesentium totam ullam repellat?
+          </div>
+          <div class="six wide column">
+            <h5 class="ui teal inverted header">Follow Us</h5>
+            Icons
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
     <script>require("web/static/js/app")</script>
   </body>
