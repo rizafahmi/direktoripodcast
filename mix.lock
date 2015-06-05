@@ -1,5 +1,6 @@
 %{"cowboy": {:hex, :cowboy, "1.0.0"},
   "cowlib": {:hex, :cowlib, "1.0.1"},
+  "exrethinkdb": {:git, "git://github.com/hamiltop/exrethinkdb.git", "36fa4931da6f3548cd99aed56591360b7751d2ca", []},
   "fs": {:hex, :fs, "0.9.2"},
   "phoenix": {:hex, :phoenix, "0.13.1"},
   "phoenix_html": {:hex, :phoenix_html, "1.2.1"},

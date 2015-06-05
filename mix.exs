@@ -31,6 +31,7 @@ defmodule DirektoriPodcast.Mixfile do
     [{:phoenix, "~> 0.13.1"},
      {:phoenix_html, "~> 1.0"},
      {:phoenix_live_reload, "~> 0.4", only: :dev},
+     {:exrethinkdb, github: "hamiltop/exrethinkdb"},
      {:cowboy, "~> 1.0"}]
   end
 end
