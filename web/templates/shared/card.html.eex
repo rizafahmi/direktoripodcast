@@ -1,0 +1,17 @@
+<div class="card">
+  <a class="image">
+    <img src="http://placehold.it/290x290">
+  </a>
+  <div class="content">
+    <a href="<%= @card.url %>" class="header" target="_blank"><%= @card.title %></a>
+    <div class="meta">
+      <a>Friends</a>
+      <span class="right floated like">
+        <i class="like icon"></i>
+      </span>
+    </div>
+    <div class="description">
+      <%= @card.description %>
+    </div>
+  </div>
+</div>
