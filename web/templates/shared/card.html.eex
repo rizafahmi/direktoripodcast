@@ -5,7 +5,7 @@
   <div class="content">
     <a href="<%= @card.url %>" class="header" target="_blank"><%= @card.title %></a>
     <div class="meta">
-      <a>Friends</a>
+      <a><%= @card.producer %></a>
       <span class="right floated like">
         <i class="like icon"></i>
       </span>

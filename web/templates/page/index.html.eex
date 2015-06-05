@@ -1,5 +1,5 @@
 
-<div class="ui cards">
+<div class="ui special cards">
   <%= for card <- @cards do %>
     <%= render DirektoriPodcast.SharedView, "card.html", card: card %>
   <% end %>
