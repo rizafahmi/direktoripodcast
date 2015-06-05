@@ -8,10 +8,7 @@
     <meta name="author" content="">
 
     <title>Hello Phoenix!</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/semantic.min.css") %>">
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/main.css") %>">
-    <script src="<%= static_path(@conn, "/js/jquery.min.js") %>"></script>
-    <script src="<%= static_path(@conn, "/js/semantic.min.js") %>"></script>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
