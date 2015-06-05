@@ -44,4 +44,36 @@
       </div>
     </div>
   </div>
+
+
+  <div class="card">
+    <a class="image">
+      <img src="http://placehold.it/290x290">
+    </a>
+    <div class="content">
+      <a class="header">Helen Troy</a>
+      <div class="meta">
+        <a>Friends</a>
+      </div>
+      <div class="description">
+        Helen Troy is an archivist living in New York, who enjoys cooking, fine art, and gardening.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <a class="image">
+      <img src="http://placehold.it/290x290">
+    </a>
+    <div class="content">
+      <a class="header">Jenny Hess</a>
+      <div class="meta">
+        <a>Friends</a>
+      </div>
+      <div class="description">
+        Jenny is a student studying Media Management at the New School.
+      </div>
+    </div>
+  </div>
+
+
 </div>
