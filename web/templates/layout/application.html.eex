@@ -25,6 +25,11 @@
         <div class="right menu">
           <div class="item">
             <a href="#">
+              Submit Podcast
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
               About
             </a>
           </div>
@@ -54,11 +59,18 @@
       <div class="footer-container">
         <div class="ui stackable inverted divided relaxed grid">
           <div class="ten wide column">
-          Amet natus odio praesentium totam ullam repellat?
+            Made with <span class="heart">♥</span> by <a href="mailto:rizafahmi@gmail.com">Riza Fahmi</a>.
           </div>
           <div class="six wide column">
             <h5 class="ui teal inverted header">Follow Us</h5>
-            Icons
+            <div class="ui inverted link list">
+
+              <a class="item" href="#"><i class="twitter icon"></i> @podcastdirektori</a>
+              <a class="item" href="#"><i class="facebook icon"></i> facebook.com/podcastdirektori</a>
+              <a class="item" href="#"><i class="google plus icon"></i> gplus.com/podcastdirektori</a>
+              <a class="item" href="#"><i class="instagram icon"></i> instagram.com/podcastdirektori</a>
+
+            </div>
           </div>
         </div>
       </div>
